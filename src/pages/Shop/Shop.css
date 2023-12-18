@@ -1,0 +1,64 @@
+
+
+.left-half {
+    flex: 1;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.right-half {
+    flex: 1;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding-right: 50px;
+}
+
+.rectangle {
+    width: 60%;
+    height: 600px; /* Adjust the height as needed */
+    background-color: #ECEDF6; /* Rectangle color */
+    color: black; /* Text color */
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10%;
+    box-shadow: 5px 5px  ;
+}
+#des{
+    line-height: 450%;
+    text-align: left;
+    padding-left: 40px;
+    font-weight: bold;
+}
+
+button {
+background-color: rgb(31,47,136);
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+display: block; /* Ensures the button takes full width */
+margin: 0 auto; /* Centers the button horizontally */
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.image-container img {
+    width: 20%; /* Adjust the width as needed */
+    max-width: 60%;
+    height: 40%;
+}
